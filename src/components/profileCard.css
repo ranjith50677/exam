@@ -1,0 +1,32 @@
+.profileContainer{
+    width:25%;
+}
+
+.dashCardContainer{
+    width: 22.3%;
+}
+
+/* @media screen and (max-width: 1861px) {
+    .profileContainer{
+        width: 23%;
+    }
+} */
+@media screen and (max-width: 1500px) {
+    .profileContainer{
+        width:27%;
+    }
+    
+    .dashCardContainer{
+        width: 21.3%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .profileContainer,.dashCardContainer{
+        width: 48%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .profileContainer,.dashCardContainer{
+        width: 98%;
+    }
+}
